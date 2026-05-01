@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="donate.css">
+    <title>Donate now</title>
+</head>
+<body>
+    <h1>Donate NOW!!</h1>
+    <h2>Your each penny count</h2>
+    <section class="donation-tracking">
+        <div class="h1">
+        <h2>Enter your name</h2>
+        </div>
+        <div class="h2">
+        <input type="text" placeholder="Full Name" required>
+        </div>
+        <div class="h3">
+        <h2>Enter your email address</h2>
+        </div>
+        <div class="h4">
+        <input type="email" placeholder="Email Address" required>
+        </div>
+        <h2>Select the payment method</h2>
+        <div class="select">
+        <label for="payment-method">Choose Payment Method:</label>
+        <select id="payment-method">
+        <option value="" disabled selected>-- Select an Option --</option>
+        <option value="cash">Cash</option>
+        <option value="upi">UPI</option>
+        <option value="qr">QR CODE</option>
+        <option value="cheque">CHEQUE</option>
+</select>
+
+<div id="payment-details" class="details-box"></div>
+        
+        </div>
+    </section>
+
+    <script src="donate.js"></script>
+
+     
+
+    
+</body>
+</html>

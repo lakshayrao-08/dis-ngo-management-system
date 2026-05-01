@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recycle Restaurant - Inventory</title>
+    <link rel="stylesheet" href="xyzfood.css">
+</head>
+<body>
+    <div class="container">
+        <header class="restaurant-header recycle">
+            <h1>Recycle Restaurant: Surplus Dashboard</h1>
+            <p>Location: West Hub | Staff On-Duty: 4 Volunteers</p>
+        </header>
+
+        <!-- Current Stock Cards -->
+        <div class="inventory-summary">
+            <div class="inv-card">
+                <h4>Raw Surplus</h4>
+                <p>45 kg</p>
+            </div>
+            <div class="inv-card">
+                <h4>Prepared Meals</h4>
+                <p>12 Portions</p>
+            </div>
+            <div class="inv-card">
+                <h4>Expiring Soon</h4>
+                <p class="warning">3 Items</p>
+            </div>
+        </div>
+
+        <!-- Detailed Inventory Table -->
+        <section class="inventory-table">
+            <h3>Active Leftover Menu</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item Name</th>
+                        <th>Category</th>
+                        <th>Quantity</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mixed Vegetable Peelings</td>
+                        <td>Raw (Compost/Stock)</td>
+                        <td>12 kg</td>
+                        <td><span class="pill fresh">Fresh</span></td>
+                        <td><button class="btn-claim">Process</button></td>
+                    </tr>
+                    <tr>
+                        <td>Over-Ripe Bananas</td>
+                        <td>Fruit</td>
+                        <td>5 kg</td>
+                        <td><span class="pill urgent">Use Now</span></td>
+                        <td><button class="btn-claim">Process</button></td>
+                    </tr>
+                    <tr>
+                        <td>Day-Old Sourdough</td>
+                        <td>Bakery</td>
+                        <td>8 Loaves</td>
+                        <td><span class="pill mid">Dry</span></td>
+                        <td><button class="btn-claim">Process</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+</body>
+</html>

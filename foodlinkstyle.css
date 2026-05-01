@@ -1,0 +1,31 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    text-align: center;
+    padding: 20px;
+}
+
+#map {
+    height: 450px;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.status {
+    font-size: 1.2rem;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 8px;
+    display: inline-block;
+    color: #333;
+}
+
+.alert {
+    color: #d9534f;
+    font-weight: bold;
+    background: #fff0f0;
+    border: 1px solid #d9534f;
+    padding: 10px;
+}

@@ -1,0 +1,71 @@
+ .volunteer-portal {
+    padding: 40px;
+    background: #fdfdfd;
+}
+
+.volunteer-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.volunteer-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.roles-grid {
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.role-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    border-left: 5px solid #1e2e3f;
+}
+
+.apply-btn {
+    background: #1e2e3f;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-form {
+    flex: 1;
+    background: #1e2e3f;
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    min-width: 300px;
+}
+
+.signup-form input, .signup-form select, .signup-form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #2ecc71;
+}

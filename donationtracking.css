@@ -1,0 +1,77 @@
+.donation-tracking {
+    padding: 40px;
+    background: #fff;
+    border-radius: 15px;
+    margin: 20px auto;
+    width: 90%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.stat-card {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    border-top: 4px solid #1e2e3f;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.stat-card h3 {
+    font-size: 2rem;
+    color: #1e2e3f;
+    margin: 0;
+}
+
+
+.tracking-log table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.tracking-log th, .tracking-log td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tracking-log th {
+    background-color: #1e2e3f;
+    color: white;
+}
+
+.status-pill {
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.completed {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.pending {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.btn{
+    margin:10px;
+    padding:1px;
+    border-radius : 1px;
+    color: #68655c;
+    background-color: #ddd;
+}
